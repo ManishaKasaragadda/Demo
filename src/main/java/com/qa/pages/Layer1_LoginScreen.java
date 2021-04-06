@@ -69,6 +69,8 @@ public class Layer1_LoginScreen {
 			//or
 			
 			loginDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
+			System.out.println("addind additional lines to check git");
 
 		}
 
