@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FileLogin Regression Suite" parallel = "tests" thread-count = "2"> 
+	
+	<test name="App with Mobile Num - SEP Flow">
+		<parameter name="username" value="cpcadmin@tcs.com" />
+		<parameter name="password" value="Btg#1234" />
+
+		<classes>
+			<class name="com.qa.base.BrowserInitialisation" />
+			<class name="com.qa.pages.Layer1_LoginScreen" />
+			<class name="com.qa.rolewise_testcases.LogisticManager" />
+		</classes>
+
+</test>
+
+	<test name="App with Mobile Num - SEP Flow">
+		<parameter name="username" value="cpcadmin@tcs.com" />
+		<parameter name="password" value="Btg#1234" />
+
+		<classes>
+			<class name="com.qa.base.BrowserInitialisation" />
+			<class name="com.qa.pages.Layer1_LoginScreen" />
+			<class name="com.qa.rolewise_testcases.Administrator" />
+		</classes>
+
+</test>
+
+</suite>

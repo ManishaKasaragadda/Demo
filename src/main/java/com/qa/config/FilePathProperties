@@ -1,0 +1,3 @@
+FILE_PATH= E:\\ProjectWithMaven\\LPP_FI
+UAT_URL=http://52.220.124.231/login/
+BROWSER=chrome
